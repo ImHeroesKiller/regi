@@ -1,28 +1,42 @@
-# regi — Professional Portfolio
+# regi — Reggi Lovvita Mulyasari Portfolio
 
-Portfolio profesional Reggia Lovvita Mulyasari dengan arah visual editorial modern dan fokus pada administrasi, operasi, customer experience, serta digital workflow.
+Portfolio profesional Reggi Lovvita Mulyasari, IT & Technical Project Quality Professional.
+
+## Fokus profesional
+
+- Network Project Quality Management
+- Technical Reporting
+- Audit akurasi dan kelengkapan data
+- Project administration
+- Data analysis
+- Workflow automation
+
+## Pengalaman
+
+- **Technical Acceptance, Indosat Ooredoo**, 2018 — sekarang
+- **General Affair, PT. Bersama Makmur Raharja**, 2013 — 2014
+
+## Key projects
+
+- **ATP Auto-Tracker** — dashboard terintegrasi berbasis Excel VBA dan MySQL untuk real-time technical report tracking.
+- **ROSTAM Digital System** — platform manajemen regional logistics dan transportation berbasis PHP/MySQL.
+
+## Pendidikan
+
+- S1 Sistem Informasi, STMIK Raharja, konsentrasi Komputer Akuntansi, IPK 3.25 / 4.00.
+- SMK N 1 Gading Rejo, program pendukung administrasi.
+
+## Teknologi dan tools
+
+MS Office Suite, Excel VBA/Macro, MySQL, PHP, HTML, CSS, dan MT System.
 
 ## Struktur
 
-- `index.html` — semantic page structure, SEO metadata, JSON-LD, dan konten utama.
-- `styles.css` — design tokens, responsive layout, komponen visual, dark section, dan reduced-motion support.
-- `script.js` — mobile navigation, scroll state, reveal animation, back-to-top, year dinamis, dan validasi form.
-- `favicon.svg` — favicon berbasis SVG.
-- `robots.txt` dan `sitemap.xml` — fondasi SEO teknis.
-- `CNAME` — konfigurasi custom domain.
+- `index.html` — semantic page structure, profil CV, SEO metadata, dan JSON-LD.
+- `styles.css` — design system, responsive layout, timeline, project cards, skills, dan aksesibilitas.
+- `script.js` — foto profil, mobile navigation, scroll state, reveal animation, back-to-top, year dinamis, dan validasi form.
+- `favicon.svg`, `robots.txt`, `sitemap.xml` — fondasi identitas dan SEO.
 
-## Menjalankan secara lokal
+## Catatan
 
-Buka `index.html` langsung di browser atau gunakan static server sederhana.
-
-## Catatan form
-
-Form kontak saat ini melakukan validasi client-side dan belum mengirim data ke endpoint produksi. Sebelum publish sebagai form aktif, hubungkan handler serverless atau provider form yang dipilih pada `script.js`, lalu tambahkan privacy notice sesuai kebutuhan.
-
-## Arah pengembangan berikutnya
-
-1. Tambahkan foto profil yang sudah dioptimalkan.
-2. Ganti deskripsi proyek dengan case study, hasil, dan tautan yang sudah diverifikasi.
-3. Tambahkan resume PDF versi final.
-4. Jalankan Lighthouse mobile dan uji keyboard.
-5. Pertimbangkan migrasi ke Astro jika jumlah halaman dan case study bertambah.
+Form kontak saat ini melakukan validasi client-side dan belum mengirim data ke endpoint produksi. Foto profil menggunakan aset yang disediakan dalam percakapan dan dimuat pada hero section.
