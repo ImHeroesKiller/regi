@@ -9,6 +9,18 @@
 
   if (year) year.textContent = new Date().getFullYear();
 
+  const portrait = document.querySelector('.portrait-frame');
+  const monogram = document.querySelector('.portrait-monogram');
+  if (portrait) {
+    portrait.style.backgroundImage = 'url("https://storage.googleapis.com/hostinger-agents-public-assets-prod/assets/3575dc03-6c8d-47b7-8d0c-bf4e63c3214c.jpg")';
+    portrait.style.backgroundSize = 'cover';
+    portrait.style.backgroundPosition = 'center 18%';
+    portrait.style.backgroundRepeat = 'no-repeat';
+    portrait.setAttribute('role', 'img');
+    portrait.setAttribute('aria-label', 'Foto profil Reggia Lovvita Mulyasari');
+  }
+  if (monogram) monogram.hidden = true;
+
   const onScroll = () => {
     header?.classList.toggle('is-scrolled', window.scrollY > 12);
     backTop?.classList.toggle('is-visible', window.scrollY > 500);
